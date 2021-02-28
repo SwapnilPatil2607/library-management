@@ -1,0 +1,84 @@
+.container {
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #a29bfe;
+  align-items: center;
+}
+.head{
+  display: flex;
+  width: 20%;
+  margin: auto;
+  cursor: pointer;
+}
+.head img{
+  height: 50px;
+  margin: 33px 10px;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+h3 {
+  color: white;
+}
+h4 {
+  background-color: white;
+  margin: auto;
+  width: 120px;
+    border-radius: 5px;
+}
+.cover {
+  z-index: 20;
+  padding: 20px 0px;
+  height: 160px;
+  width: 150px;
+  background-size: cover;
+  box-shadow: 3px 3px 5px black;
+  border-radius: 3px;
+}
+.books {
+  margin: 100px 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+}
+
+.book {
+  display: flex;
+}
+.details {
+  width: 50px;
+  height: 150px;
+  margin: 10px;
+  text-align: left;
+  background-color: white;
+  color: black;
+  width: 150px;
+  text-align: center;
+  border-radius: 6px;
+ 
+}
+.page {
+  padding: 0px;
+  background-image: url("../images/book.png");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  margin: 20px;
+  border-radius: 16px;
+}
+.cover:hover {
+    transition: 400ms;
+    transform:  rotate(-1deg) translate(-28px ,0px);
+    box-shadow:7px 0px 15px black;
+  }
+
+  .functionsDesign select{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0px 10px;
+    outline: none;
+  }

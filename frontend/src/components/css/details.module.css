@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.chapters{
+    padding: 5px 0px;
+    background-image: url("../images/book.png");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+.container div{
+    margin-right:30px ;
+}
+h3{
+    transform: rotate(-3deg);
+    color: black;
+    font-family: 'Sofia', cursive;
+    font-size: 40px;
+}
+.chapters p{
+    transform: rotate(-3deg);
+    font-family: 'Tillana', cursive;
+}
+.details{
+    font-size: 15px;
+    background-color: #34495e;
+    border-radius: 10px;
+    padding: 5% 10%;
+    width: 60%;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}

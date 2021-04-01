@@ -11,7 +11,7 @@ function App() {
         {" "}
         <div className={Styles.head}>
           {" "}
-          <h1>HeartRead</h1>
+          <h1>New HeartRead Books</h1>
           <img src={logo} alt="book logo" />
         </div>
       </Link>
